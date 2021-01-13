@@ -25,4 +25,5 @@ WORKDIR /www/web/bestshop-php
 COPY  . /www/web/bestshop-php
 
 #COPY . .
+RUN chmod -R 775 /www/web/bestshop-shop
 EXPOSE 9000

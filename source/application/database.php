@@ -2,7 +2,7 @@
 
 // 数据库配置
 $config = [
-    'host' => 'mysql',
+    'host' => '112.126.95.84',
     'database' => 'yoshop',
     'username' => 'root',
     'password' => 'root',

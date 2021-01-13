@@ -23,5 +23,7 @@ MAINTAINER ceclear<594652523@qq.com>
 WORKDIR /www/web/bestshop-php
 
 COPY  . /www/web/bestshop-php
+
+RUN chmod -R 777 runtime
 #COPY . .
 EXPOSE 9000

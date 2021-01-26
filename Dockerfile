@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
      && pecl install redis-5.3.2 \
      && docker-php-ext-enable redis \
      && docker-php-ext-install zip \
+     && docker-php-ext-install bcmath  \
      && docker-php-ext-install mysqli pdo pdo_mysql \
      && apt-get clean \
      && apt-get autoclean \
